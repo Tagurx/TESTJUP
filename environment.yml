@@ -6,7 +6,6 @@ dependencies:
   - python=3.9
   - jupyterlab
   - jupyter-server-proxy
-  - nodejs
-  - npm
-  
- 
+  - nodejs  # Installing Node.js through Conda which includes npm
+  - pip:
+      - git+https://github.com/username/repository.git  # If any additional Python packages need to be installed
