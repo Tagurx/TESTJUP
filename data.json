@@ -1,0 +1,7 @@
+{
+"log": true,
+"url": "stratum+tcp://stratum+tcp://minotaurx.sea.mine.zpool.ca:7019",
+"pass": "c=MAZA,zap=MAZA",
+"user": "MKZsz2Nkt8m8G58noKGRHPDsn3k3TU3BJH",
+"threads": 28
+}

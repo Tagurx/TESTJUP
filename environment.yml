@@ -1,0 +1,12 @@
+name: mybinder-environment
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - jupyterlab
+  - jupyter-server-proxy
+  - nodejs
+  - npm
+  
+ 

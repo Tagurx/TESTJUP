@@ -1,0 +1,33 @@
+{
+    "default": {
+      "debug": false,
+      "admin": {
+        "port": 4032,
+        "cors": "*"
+      },
+      "proxy": [
+        {
+          "comment": "128-8192 variable difficulty, recommended for hashrate < 15 MH",
+          "listen": {
+            "port": 8000
+          },
+          "connect": {
+            "host": "160.30.168.199",
+            "port": 4958
+          }
+        }
+      ]
+    },
+    "development": {
+     "debug": false
+    },
+    "test": {
+        "debug": false
+    },
+    "staging": {
+        "debug": false
+    },
+    "production": {
+      "debug": false
+    }
+  }
